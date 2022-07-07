@@ -2,7 +2,7 @@ from city_functions import city_country, math_func
 import unittest
 
 '''
-unittest calass for function in city_functions.py
+unittest for city_country in city_functions.py
 '''
 class TestCityCountry(unittest.TestCase):
 	def test_city_country(self):
@@ -10,7 +10,7 @@ class TestCityCountry(unittest.TestCase):
 		self.assertEqual(format_city_country, 'Kyiv, Ukraine')
 
 '''
-unittest calass for function in city_functions.py
+unittest for math_func in city_functions.py
 '''
 class TestMathFucn(unittest.TestCase):
 	def test_math_func(self):
